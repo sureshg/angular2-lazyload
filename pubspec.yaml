@@ -1,13 +1,19 @@
-name: angular2_lazy_example
-description: QuickStart
-version: 0.0.1
+name: angular_lazy
+description: A web app that uses AngularDart Components
+version: 1.0.0
+author: Suresh
+
 environment:
-  sdk: '>=1.19.0 <2.0.0'
+  sdk: '>=1.20.1 <2.0.0'
+
 dependencies:
-  angular2: ^3.0.0-alpha
+  angular2: "^3.0.0"
+  angular_components: "^0.5.0"
+
 dev_dependencies:
   browser: ^0.10.0+2
   dart_to_js_script_rewriter: ^1.0.2
+
 transformers:
 - angular2:
     platform_directives:

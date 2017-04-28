@@ -16,8 +16,9 @@ class ReleaseComponent implements OnInit {
   ngOnInit() async {
     final tags = JSON.decode(await HttpRequest.getString(API_URL)) as List<Map>;
     // Introduce some delay to show lazy loading.
-    await new Future.delayed(const Duration(seconds: 3),()=>3);
-    releases = tags.map((m) => new GithubTag(m["name"], m['commit']['url'])).toList();
+    await new Future.delayed(const Duration(seconds: 3), () => 3);
+    releases =
+        tags.map((m) => new GithubTag(m["name"], m['commit']['url'])).toList();
   }
 }
 
