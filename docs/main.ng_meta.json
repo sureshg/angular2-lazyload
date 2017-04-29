@@ -7,7 +7,7 @@
         "5": false
       },
       {
-        "1": "package:angular2_lazy_example/app_component.dart",
+        "1": "package:angular_lazy/app_component.dart",
         "5": false
       }
     ],
@@ -18,7 +18,7 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2_lazy_example/app_component.template.dart",
+        "1": "package:angular_lazy/app_component.template.dart",
         "4": "i1"
       }
     ]
@@ -27,7 +27,7 @@
     "main": {
       "class": "Identifier",
       "name": "main",
-      "moduleUrl": "asset:angular2_lazy_example/web/main.dart",
+      "moduleUrl": "asset:angular_lazy/web/main.dart",
       "prefix": null,
       "value": null
     }

@@ -1,9 +1,12 @@
 import 'package:angular2/core.dart';
 import 'package:angular_lazy/release_component.dart' deferred as release;
+import 'google_map/map_component.dart';
 
 @Component(selector: 'my-app',
     templateUrl: 'app_component.html',
-    styleUrls: const['app_component.css'])
+    styleUrls: const['app_component.css'],
+    directives: const [GoogleMap]
+)
 class AppComponent implements OnInit {
 
   var name = 'Angular';
